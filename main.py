@@ -34,7 +34,7 @@ class Sensor():
         else:
             print ("Falsches Passwort!") 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     s1= Sensor("123") #123 ist die id       
     print(s1.id)
     s1.measure(10)
