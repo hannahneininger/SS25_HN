@@ -5,7 +5,7 @@ class Subject():
         
 class Supervisor():
     def __innit__(self, name):
-
+hgdfgfgh
 
 class Experiment():
     def __innit__(self, experiment_name, date, supervisor, subject):
