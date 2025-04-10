@@ -1,19 +1,3 @@
-class Subject():
-    def __innit__(self, name):
-    def estimate_max_hr():
-    
-        
-class Supervisor():
-    def __innit__(self, name):
-hgdfgfgh
-
-class Experiment():
-    def __innit__(self, experiment_name, date, supervisor, subject):
-        self.experiment_name = experiment_name
-        self.date = date
-        self.supervisor = supervisor
-        self.subject = subject
-
 class Person():
     def __innit__(self, name, age, sex):
         self.name = name
@@ -28,12 +12,20 @@ class Person():
         # der input() öffnet ein Eingabefenster für den Nutzer und speichert die Eingabe
         max_hr_bpm = input("Enter maximum heart rate:")
     return int(max_hr_bpm)
-class Subject(Person):
-    def __innit__(self, name, age):
-        self.name = name
-        self.age = age
-class Examiner(Person):
-    def __innit__(self, name, age):
-        self.name = name
-        self.age = age
 
+class Subject(Person):
+    def __innit__(self, name):
+    def estimate_max_hr():
+    
+        
+class Supervisor():
+    def __innit__(self, name, age):
+        self.name = name
+        self.age = age  
+
+class Experiment():
+    def __innit__(self, experiment_name, date, supervisor, subject):
+        self.experiment_name = experiment_name
+        self.date = date
+        self.supervisor = supervisor
+        self.subject = subject
